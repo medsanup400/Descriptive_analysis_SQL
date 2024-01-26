@@ -1,7 +1,7 @@
 # Descriptive_analysis_SQL
 Performing descriptive analysis by using SQL codes.
 
-**1. Median:**
+**MEDIAN:**
 
 If there are 5 rows (an odd number). The expressions become:
 
