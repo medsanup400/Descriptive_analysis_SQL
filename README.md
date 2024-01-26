@@ -1,7 +1,9 @@
 # Descriptive_analysis_SQL
 Performing descriptive analysis by using SQL codes.
 
-**1. Median:********** If there are 5 rows (an odd number). The expressions become:
+**1. Median:**
+
+If there are 5 rows (an odd number). The expressions become:
 
 (5 + 1) / 2 = 3: This is the middle row number.
 (5 + 2) / 2 = 3.5: This is the upper middle row number.
