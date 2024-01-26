@@ -23,6 +23,8 @@ So, the WHERE clause effectively becomes WHERE row_num IN (3.5, 4). However, sin
 This means the query will select rows with row_num equal to 3 and 4. The median latitude would then be the average of the latitude values of these two rows.
 
 
+
+
 **2. SQL_Report**
 
 Overview: This SQL code generates a comprehensive report showcasing student names, grades, and marks. It adheres to specific criteria where students with grades greater than or equal to 8 have their actual names displayed, and students with grades lower than 8 are represented by NULL in the name column. The report is sorted in descending order based on grades, and within each grade, it further considers the alphabetical order of names (for grades 8 and above) or the ascending order of marks (for grades below 8).
