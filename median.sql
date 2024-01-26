@@ -1,3 +1,4 @@
+```sql
 WITH OrderedLatitudes AS (
   SELECT LAT_N,
          ROW_NUMBER() OVER (ORDER BY LAT_N) AS row_num,
