@@ -38,3 +38,11 @@ Overview: This SQL query is designed to assemble a leaderboard for a coding cont
 
 Usage:
 This SQL code is valuable for contest organizers seeking to recognize and highlight the top-performing hackers in a coding competition. By creating a leaderboard that showcases participants with consistent excellence across multiple challenges, organizers can acknowledge and celebrate the achievements of skilled individuals. This query provides a clear and organized representation of hackers who stand out for their ability to master various difficulty levels, contributing to a more engaging and competitive coding environment.
+
+**4. Ollivander's Inventory**
+
+Overview:
+This SQL code calculates the minimum number of gold galleons needed to purchase each non-evil wand at Ollivander's based on high power and age. The code joins the wands and wands_property tables, filtering out evil wands (is_evil = 0). It utilizes a correlated subquery to find, for each wand, the minimum coins_needed among wands with the same power and age. The result is a list of wand details, including id, age, coins_needed, and power, sorted in descending order of power. In case of tied powers, the result is further sorted in descending order of age.
+
+Usage:
+This code is valuable in scenarios where one needs to determine the most cost-effective non-evil wands at Ollivander's, considering both their power and age. By identifying the minimum number of gold galleons required for each unique combination of power and age, the code provides insights into the pricing structure of wands. The result can be useful for individuals, like Ron, who are seeking to replace or upgrade their wands while optimizing for both power and age.
