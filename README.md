@@ -1,4 +1,4 @@
-# Descriptive_analysis_SQL
+# Descriptive_analysis_using_SQL
 Performing descriptive analysis by using SQL codes.
 
 **MEDIAN:**
