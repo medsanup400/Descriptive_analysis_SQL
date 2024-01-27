@@ -1,0 +1,11 @@
+WITH  Xnum AS (
+  SELECT 20 AS n 
+  UNION ALL
+  SELECT n - 1 
+  FROM Xnum
+  WHERE n > 0
+)
+----The above code will generate the numbers form 20 to 1.--
+
+
+SELECT REPLICATE('* ', n)  FROM Xnum;
