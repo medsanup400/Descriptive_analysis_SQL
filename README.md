@@ -52,3 +52,12 @@ This code is valuable in scenarios where one needs to determine the most cost-ef
 Overview:
 This SQL query is designed to rank hackers based on their contributions to challenge creation. It retrieves essential details such as hacker_id, name, and the count of challenges (c_count) created by each student. The query employs a combination of grouping, subqueries, and logical conditions to identify students with the maximum number of challenges and those with unique challenge counts. The results are then sorted by the total number of challenges in descending order and, in case of ties, by hacker ID.
 
+**6. Contest Leaderboard**
+
+This SQL query retrieves information about hackers and their total scores based on the maximum scores achieved in challenges. It utilizes a subquery to find the maximum score for each challenge that each hacker has submitted. The results are then grouped by hacker, and the total score is calculated by summing up these maximum scores. The query includes a HAVING clause to filter out hackers with a total score less than or equal to 0. The final output is ordered by total score in descending order, with ties broken by ascending hacker ID.
+
+Usage:
+
+This query is designed for a scenario where hackers submit solutions to challenges, and the goal is to calculate their total scores.
+The results can be useful for identifying top-performing hackers based on their total scores.
+
