@@ -61,3 +61,16 @@ Usage:
 This query is designed for a scenario where hackers submit solutions to challenges, and the goal is to calculate their total scores.
 The results can be useful for identifying top-performing hackers based on their total scores.
 
+**7. Draw the Triangle**
+Overview:
+This SQL code utilizes recursive Common Table Expressions (CTEs) to generate and print patterns of asterisks in SQL Server. The specific pattern generated is denoted as P(R), where R represents the number of rows in the pattern.
+
+Usage:
+
+The primary purpose of this code is to demonstrate how to use SQL recursive CTEs, particularly in the context of printing patterns. The provided example generates and prints the pattern P(20) as an illustration.
+
+Code Structure:
+
+The SQL code is organized in a single file.
+A recursive CTE named PatternCTE is used to generate a sequence of numbers from 20 to 1.
+The REPLICATE function is employed to print the pattern, repeating the string '* ' based on the current row number.
