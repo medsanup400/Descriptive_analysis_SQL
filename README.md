@@ -62,6 +62,7 @@ This query is designed for a scenario where hackers submit solutions to challeng
 The results can be useful for identifying top-performing hackers based on their total scores.
 
 **7. Draw the Triangle**
+
 Overview:
 This SQL code utilizes recursive Common Table Expressions (CTEs) to generate and print patterns of asterisks in SQL Server. The specific pattern generated is denoted as P(R), where R represents the number of rows in the pattern.
 
