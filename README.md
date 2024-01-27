@@ -46,3 +46,9 @@ This SQL code calculates the minimum number of gold galleons needed to purchase 
 
 Usage:
 This code is valuable in scenarios where one needs to determine the most cost-effective non-evil wands at Ollivander's, considering both their power and age. By identifying the minimum number of gold galleons required for each unique combination of power and age, the code provides insights into the pricing structure of wands. The result can be useful for individuals, like Ron, who are seeking to replace or upgrade their wands while optimizing for both power and age.
+
+**5. Challenges**
+
+Overview:
+This SQL query is designed to rank hackers based on their contributions to challenge creation. It retrieves essential details such as hacker_id, name, and the count of challenges (c_count) created by each student. The query employs a combination of grouping, subqueries, and logical conditions to identify students with the maximum number of challenges and those with unique challenge counts. The results are then sorted by the total number of challenges in descending order and, in case of ties, by hacker ID.
+
