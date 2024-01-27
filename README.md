@@ -1,5 +1,5 @@
 # Descriptive analysis using SQL
-Performing descriptive analysis using SQL codes.
+Performing descriptive analysis using SQL codes. These are the solutions to the HackerRank SQL Questions.
 
 **1. MEDIAN:**
 
